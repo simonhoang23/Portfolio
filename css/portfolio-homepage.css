@@ -26,8 +26,8 @@ section {
 header {
   background-color: #eeeeee;
   height: 70px;
-  position: sticky;
-  top: 0;
+  /* position: sticky;
+  top: 0; */
 }
 
 .background {
@@ -93,6 +93,7 @@ background-color: #eeeeee;
 .mobile__projects__block__a {
   text-decoration: none;
   color: #333333;
+  
 }
 
 .mobile__projects__block {
@@ -115,7 +116,9 @@ background-color: #eeeeee;
   color: #999999;
 }
 
-
+.mobile__projects__padding__bottom {
+  padding-bottom: 100px;
+}
 
 
 
