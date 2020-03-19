@@ -11,8 +11,9 @@
 
 body {
   color: var(--main__text__colour);
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   line-height: var(--main__line__height);
+  background-color: #f1efed;
 }
 
 /* MOBILE WIDTH SIZE */
@@ -31,13 +32,12 @@ header {
 }
 
 .background {
-background-color: #eeeeee;
+  background-color: #eeeeee;
 }
 
 .project__details__background {
   background-color: #bbbbbb;
   /* Project pages background-color: #f1efed */
-
 }
 
 .mobile__header__container {
@@ -67,7 +67,6 @@ background-color: #eeeeee;
 }
 
 .mobile__hero__container {
-
   padding: 100px 15px 100px 15px;
   background-color: #eeeeee;
 }
@@ -77,7 +76,7 @@ background-color: #eeeeee;
 }
 
 .mobile__hero__img {
-  background: url('../images/lofi_hero_image.png'); 
+  background: url("../images/lofi_hero_image.png");
   /* background: url('../images/hero-image-home.png'); */
   height: 500px;
   background-position: center;
@@ -107,10 +106,33 @@ background-color: #eeeeee;
 .mobile__project__details__summary {
   font-size: 25px;
   color: #fff;
-
 }
 
 
+
+    /* MOBILE single__text__style *********************/
+
+.mobile__single__text__style__parent {
+  padding: 100px 0;
+  
+}
+
+.mobile__single__text__style__h3 {
+  color: #D7196F;
+  padding-bottom: 20px;
+  font-size: 13px;
+
+}
+
+.mobile__single__text__style__p {
+  font-size: 20px;
+  color: #333333;
+  line-height: 1.6;
+  padding-bottom: 20px;
+ 
+}
+
+    /* MOBILE single__text__style *********************/
 
 
 
@@ -149,6 +171,33 @@ background-color: #eeeeee;
 
 
 
+/* DESKTOP --------------------------- TEXT STYLES; */
+
+.single__text__style__parent {
+  padding: 200px 0;
+  display: flex;
+  justify-content: flex-end;
+  display: none;
+}
+
+.single__text__style__h3 {
+  font-size: 13px;
+  color: #D7196F;
+  padding-bottom: 20px;
+  display: none;
+}
+
+.single__text__style__p {
+  width: 600px;
+  font-size: 20px;
+  color: #333333;
+  line-height: 1.6;
+  display: none;
+}
+
+/* DESKTOP --------------------------- TEXT STYLES; */
+
+
 
 
 
@@ -180,7 +229,7 @@ background-color: #eeeeee;
     padding: 280px 15px 380px 15px;
     background-color: #eeeeee;
   }
-  
+
   .desktop__project__details__parent {
     padding: 100px 0 40px 0;
     display: block;
@@ -216,6 +265,47 @@ background-color: #eeeeee;
 
 
 
+    /* DESKTOP single__text__style *********************/
+
+  .single__text__style__container {
+
+  }
+
+  .single__text__style__parent {
+    padding: 200px 0;
+    display: flex;
+    justify-content: flex-end;
+    
+  }
+
+  .single__text__style__h3 {
+    font-size: 13px;
+    color: #D7196F;
+    padding-bottom: 20px;
+    display: block;
+  }
+
+  .single__text__style__p {
+    width: 600px;
+    font-size: 20px;
+    color: #333333;
+    line-height: 1.6;
+    display: block;
+  }
+
+  /* DESKTOP single__text__style *********************/
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -226,30 +316,54 @@ background-color: #eeeeee;
     padding: 100px 0;
     display: none;
   }
-  
+
   .mobile__project__details__h3 {
     font-size: 13px;
     color: #fff;
     padding-bottom: 20px;
     display: none;
   }
-  
+
   .mobile__project__details__p {
     font-size: 20px;
     color: #fff;
     padding-bottom: 40px;
     display: none;
   }
-  
+
   .mobile__project__details__summary {
     font-size: 25px;
     color: #fff;
     display: none;
   }
 
-
-
-
-
   /* MOBILE --------------------------- DISPLAY: NONE; */
+
+
+/* MOBILE --------------------------- TEXT STYLES; */
+
+  .mobile__single__text__style__parent {
+    padding: 200px 0;
+    display: flex;
+    justify-content: flex-end;
+    display: none;
+  }
+  
+  .mobile__single__text__style__h3 {
+    font-size: 15px;
+    color: #D7196F;
+    padding-bottom: 20px;
+    display: none;
+  }
+  
+  .mobile__single__text__style__p {
+    width: 600px;
+    font-size: 20px;
+    color: #333333;
+    line-height: 1.6;
+    display: none;
+  }
+
+  /* MOBILE --------------------------- TEXT STYLES; */
+
 }
