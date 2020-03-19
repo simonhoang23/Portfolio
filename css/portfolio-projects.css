@@ -120,7 +120,30 @@ background-color: #eeeeee;
 
 /* DESKTOP --------------------------- DISPLAY: NONE; */
 
+.desktop__project__details__parent {
+  padding: 100px 0;
+  display: none;
+}
 
+.desktop__project__details__h3 {
+  font-size: 13px;
+  color: #fff;
+  padding-bottom: 20px;
+  display: none;
+}
+
+.desktop__project__details__p {
+  font-size: 20px;
+  color: #fff;
+  padding-bottom: 40px;
+  display: none;
+}
+
+.desktop__project__details__summary {
+  font-size: 25px;
+  color: #fff;
+  display: none;
+}
 
 /* DESKTOP --------------------------- DISPLAY: NONE; */
 
@@ -158,10 +181,34 @@ background-color: #eeeeee;
     background-color: #eeeeee;
   }
   
+
+  .desktop__project__details__parent {
+    padding: 100px 0 40px 0;
+    display: block;
+    display: flex;
+    justify-content: space-around;
+  }
   
-
-
-
+  .desktop__project__details__h3 {
+    font-size: 13px;
+    color: #fff;
+    padding-bottom: 20px;
+    display: block;
+  }
+  
+  .desktop__project__details__p {
+    font-size: 20px;
+    color: #fff;
+    padding-bottom: 40px;
+    display: block;
+  }
+  
+  .desktop__project__details__summary {
+    font-size: 32px;
+    color: #fff;
+    width: 390px;
+    display: block;
+  }
 
 
 
@@ -172,7 +219,30 @@ background-color: #eeeeee;
 
   /* MOBILE --------------------------- DISPLAY: NONE; */
 
+  .mobile__project__details__parent {
+    padding: 100px 0;
+    display: none;
+  }
   
+  .mobile__project__details__h3 {
+    font-size: 13px;
+    color: #fff;
+    padding-bottom: 20px;
+    display: none;
+  }
+  
+  .mobile__project__details__p {
+    font-size: 20px;
+    color: #fff;
+    padding-bottom: 40px;
+    display: none;
+  }
+  
+  .mobile__project__details__summary {
+    font-size: 25px;
+    color: #fff;
+    display: none;
+  }
 
 
 
