@@ -24,93 +24,18 @@ section {
   padding: 0 15px;
 }
 
-header {
-  /* background-color: #eeeeee; */
-  height: 70px;
-  /* position: sticky;
-  top: 0; */
-}
-
-.background {
-  background-color: #eeeeee;
-}
-
-.project__details__background {
-  background-color: #bbbbbb;
-  /* Project pages background-color: #f1efed */
-}
-
-.mobile__header__container {
-  /* background-color: #eeeeee; */
-  height: 70px;
-}
-
-.mobile__header__grid {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 17px;
-}
-
-.mobile__logo {
-  width: 100px;
-}
-
-.mobile__header__h1 {
-  text-decoration: none;
-  color: #333333;
-  font-size: 18px;
-}
-
-.mobile__header__h1:hover {
-  text-decoration: underline;
-}
-
-.mobile__hero__container {
-  padding: 100px 15px 100px 15px;
-  background-color: #eeeeee;
-}
-
-.mobile__hero__img__container {
-  max-height: 430px;
-}
-
-.mobile__hero__img {
-  background: url("../images/lofi_hero_image.png");
-  /* background: url('../images/hero-image-home.png'); */
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  top: -70px;
-  z-index: -1;
-}
-
-.mobile__project__details__parent {
-  padding: 100px 0;
-}
-
-.mobile__project__details__h3 {
-  font-size: 13px;
-  color: #fff;
-  padding-bottom: 20px;
-}
-
-.mobile__project__details__p {
-  font-size: 20px;
-  color: #fff;
-  padding-bottom: 40px;
-}
-
-.mobile__project__details__summary {
-  font-size: 25px;
-  color: #fff;
-}
 
 
 
-    /* MOBILE single__text__style *********************/
+
+
+
+
+
+
+
+
+    /* MOBILE SINGLE TEXT STYLE ************************************************************************************/
 
 .mobile__single__text__style__parent {
   padding: 100px 0;
@@ -132,7 +57,43 @@ header {
  
 }
 
-    /* MOBILE single__text__style *********************/
+    /* MOBILE SINGLE TEXT STYLE ************************************************************************************/
+
+
+
+
+
+
+    
+
+    /* MOBILE TITLE AND TWO COLUMN TEXT STYLE ************************************************************************************/
+
+    .mobile__title__2__column__parent__main {
+      padding: 100px 0;
+
+    }
+    
+    .mobile__title__2__column__block {
+
+    }
+    
+    .mobile__title__2__column__parent__right {
+     
+    }
+    
+    .mobile__title__2__column__h3 {
+       font-size: 20px;
+       padding-bottom: 20px;
+    }
+    
+    .mobile__title__2__column__p {
+      font-size: 16px;
+      color: #333333;
+      line-height: 1.6;
+      padding-bottom: 20px;
+    }
+  
+    /* MOBILE TITLE AND TWO COLUMN TEXT STYLE ************************************************************************************/
 
 
 
@@ -140,38 +101,12 @@ header {
 
 
 
-/* DESKTOP --------------------------- DISPLAY: NONE; */
-
-.desktop__project__details__parent {
-  padding: 100px 0;
-  display: none;
-}
-
-.desktop__project__details__h3 {
-  font-size: 13px;
-  color: #fff;
-  padding-bottom: 20px;
-  display: none;
-}
-
-.desktop__project__details__p {
-  font-size: 20px;
-  color: #fff;
-  padding-bottom: 40px;
-  display: none;
-}
-
-.desktop__project__details__summary {
-  font-size: 25px;
-  color: #fff;
-  display: none;
-}
-
-/* DESKTOP --------------------------- DISPLAY: NONE; */
 
 
 
-/* DESKTOP --------------------------- TEXT STYLES; */
+
+
+/* DISPLAY: NONE; DESKTOP --------------------------- DISPLAY: NONE; DESKTOP SINGLE TEXT STYLE */
 
 .single__text__style__parent {
   padding: 200px 0;
@@ -195,8 +130,45 @@ header {
   display: none;
 }
 
-/* DESKTOP --------------------------- TEXT STYLES; */
 
+/* DISPLAY: NONE; DESKTOP --------------------------- DISPLAY: NONE; DESKTOP TITLE AND TWO COLUMN TEXT STYLE */
+
+.desktop__title__2__column__parent__main {
+  display: flex;
+  justify-content: space-between;
+  padding: 200px 0;
+  display: none;
+}
+
+.desktop__title__2__column__block {
+  display: none;
+}
+
+.desktop__title__2__column__parent__right {
+  display: flex;
+  width: 600px;
+  display: none;
+}
+
+.desktop__title__2__column__h3 {
+   font-size: 20px;
+   display: none;
+}
+
+.desktop__title__2__column__p {
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.6;
+  display: none;
+}
+
+.desktop__title__2__column__p__left__padding {
+  padding-left: 30px;
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.6;
+  display: none;
+}
 
 
 
@@ -222,50 +194,12 @@ header {
     padding: 0 15px;
   }
 
-  /* HERO */
-
-  .desktop__hero__container {
-    display: block;
-    padding: 280px 15px 380px 15px;
-    background-color: #eeeeee;
-  }
-
-  .desktop__project__details__parent {
-    padding: 100px 0 40px 0;
-    display: block;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .desktop__project__details__block {
-
-  }
-
-  .desktop__project__details__h3 {
-    font-size: 13px;
-    color: #fff;
-    padding-bottom: 20px;
-    display: block;
-  }
-
-  .desktop__project__details__p {
-    font-size: 20px;
-    color: #fff;
-    padding-bottom: 40px;
-    display: block;
-  }
-
-  .desktop__project__details__summary {
-    font-size: 32px;
-    color: #fff;
-    width: 600px;
-    display: block;
-  }
+  
 
 
 
 
-    /* DESKTOP single__text__style *********************/
+    /* DESKTOP SINGLE TEXT STYLE ************************************************************************************/
 
   .single__text__style__container {
 
@@ -293,7 +227,52 @@ header {
     display: block;
   }
 
-  /* DESKTOP single__text__style *********************/
+  /* DESKTOP SINGLE TEXT STYLE ************************************************************************************/
+
+
+
+/* DESKTOP TITLE AND TWO COLUMN TEXT STYLE ************************************************************************************/
+
+
+.desktop__title__2__column__parent__main {
+  display: flex;
+  justify-content: space-between;
+  padding: 200px 0;
+
+}
+
+.desktop__title__2__column__block {
+  display: block;
+}
+
+.desktop__title__2__column__parent__right {
+  display: flex;
+  width: 600px;
+
+}
+
+.desktop__title__2__column__h3 {
+   font-size: 20px;
+   display: block;
+   color: #D7196F;
+}
+
+.desktop__title__2__column__p {
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.6;
+  display: block;
+}
+
+.desktop__title__2__column__p__left__padding {
+  padding-left: 30px;
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.6;
+  display: block;
+}
+
+/* DESKTOP TITLE AND TWO COLUMN TEXT STYLE ************************************************************************************/
 
 
 
@@ -310,37 +289,12 @@ header {
 
 
 
-  /* MOBILE --------------------------- DISPLAY: NONE; */
-
-  .mobile__project__details__parent {
-    padding: 100px 0;
-    display: none;
-  }
-
-  .mobile__project__details__h3 {
-    font-size: 13px;
-    color: #fff;
-    padding-bottom: 20px;
-    display: none;
-  }
-
-  .mobile__project__details__p {
-    font-size: 20px;
-    color: #fff;
-    padding-bottom: 40px;
-    display: none;
-  }
-
-  .mobile__project__details__summary {
-    font-size: 25px;
-    color: #fff;
-    display: none;
-  }
-
-  /* MOBILE --------------------------- DISPLAY: NONE; */
+ 
 
 
-/* MOBILE --------------------------- TEXT STYLES; */
+
+
+/* DISPLAY: NONE; MOBILE --------------------------- DISPLAY: NONE; MOBILE SINGLE TEXT STYLE */
 
   .mobile__single__text__style__parent {
     padding: 200px 0;
@@ -364,6 +318,81 @@ header {
     display: none;
   }
 
-  /* MOBILE --------------------------- TEXT STYLES; */
+
+
+
+
+  /* DISPLAY: NONE; MOBILE --------------------------- DISPLAY: NONE; MOBILE TITLE AND TWO COLUMN TEXT STYLE */
+
+  .mobile__title__2__column__parent__main {
+    padding: 100px 0;
+    display: none;
+  }
+  
+  .mobile__title__2__column__block {
+    display: none;
+  }
+  
+  .mobile__title__2__column__parent__right {
+    display: none;
+  }
+  
+  .mobile__title__2__column__h3 {
+     font-size: 20px;
+     padding-bottom: 20px;
+     display: none;
+  }
+  
+  .mobile__title__2__column__p {
+    font-size: 16px;
+    color: #333333;
+    line-height: 1.6;
+    padding-bottom: 20px;
+    display: none;
+  }
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
