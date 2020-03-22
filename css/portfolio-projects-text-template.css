@@ -84,6 +84,7 @@ section {
     .mobile__title__2__column__h3 {
        font-size: 20px;
        padding-bottom: 20px;
+       color: #D7196F;
     }
     
     .mobile__title__2__column__p {
@@ -246,7 +247,9 @@ section {
 }
 
 .desktop__title__2__column__parent__right {
-  display: flex;
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-gap: 30px;
   width: 600px;
 
 }
@@ -259,22 +262,68 @@ section {
 
 .desktop__title__2__column__p {
   font-size: 16px;
+  width: 279px;
+  padding-bottom: 30px;
   color: #333333;
   line-height: 1.6;
   display: block;
 }
 
-.desktop__title__2__column__p__left__padding {
-  padding-left: 30px;
-  font-size: 16px;
-  color: #333333;
-  line-height: 1.6;
-  display: block;
-}
+
 
 /* DESKTOP TITLE AND TWO COLUMN TEXT STYLE ************************************************************************************/
 
 
+
+
+
+/* DESKTOP TITLE AND TWO COLUMN DESCRIPTION TEXT STYLE ************************************************************************************/
+
+
+.desktop__title__2__column__description__parent__main {
+  display: flex;
+  justify-content: space-between;
+  padding: 200px 0;
+
+}
+
+.desktop__title__2__column__description__block {
+  display: block;
+}
+
+.desktop__title__2__column__description__parent__right {
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-gap: 30px;
+  width: 600px;
+
+}
+
+.desktop__title__2__column__description__h3 {
+  font-size: 20px;
+  display: block;
+  color: #D7196F;
+}
+
+.desktop__title__2__column__description__h4 {
+   font-size: 16px;
+   display: block;
+   padding-bottom: 15px;
+}
+
+.desktop__title__2__column__description__p {
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.6;
+  display: block;
+  width: 279px;
+  color: #999999;
+  padding-bottom: 50px;
+}
+
+
+
+/* DESKTOP TITLE AND TWO COLUMN DESCRIPTION TEXT STYLE ************************************************************************************/
 
 
 
