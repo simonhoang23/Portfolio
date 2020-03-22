@@ -13,6 +13,8 @@ body {
   color: var(--main__text__colour);
   font-family: 'Playfair Display', serif;
   line-height: var(--main__line__height);
+  background-color: #eeeeee;
+  /* Project pages background-color: #eeeeee */
 }
 
 /* MOBILE WIDTH SIZE */
@@ -26,18 +28,12 @@ section {
 /* HEADER */
 
 header {
-  background-color: #eeeeee;
   height: 70px;
   /* position: sticky;
   top: 0; */
 }
 
-.background {
-background-color: #eeeeee;
-}
-
 .mobile__header__container {
-  background-color: #eeeeee;
   height: 70px;
 }
 
