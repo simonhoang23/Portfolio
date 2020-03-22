@@ -131,25 +131,6 @@ section {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* DESKTOP SCREEN SIZE - min-width: 720px DESKTOP SIZE STARTS HERE (720PX) */
 
 @media only screen and (min-width: 775px) {
@@ -158,11 +139,6 @@ section {
     margin: 0 auto;
     padding: 0 15px;
   }
-
-  
-
-
-
 
     /* DESKTOP SINGLE TEXT STYLE */
 
