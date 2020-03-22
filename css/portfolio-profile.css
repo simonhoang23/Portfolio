@@ -13,8 +13,8 @@ body {
   color: var(--main__text__colour);
   font-family: 'Playfair Display', serif;
   line-height: var(--main__line__height);
-  background-color: #f1efed;
-  /* Project pages background-color: #f1efed */
+  background-color: #eeeeee;
+  /* Project pages background-color: #eeeeee */
 }
 
 /* MOBILE WIDTH SIZE */
@@ -33,10 +33,6 @@ header {
   top: 0; */
 }
 
-.project__details__background {
-  background-color: #bbbbbb;
-}
-
 .header__container {
   height: 70px;
 }
@@ -51,6 +47,7 @@ header {
 .header__logo {
   width: 100px;
 }
+
 .header__nav__grid {
   display: flex;
 }
@@ -77,53 +74,14 @@ header {
   text-decoration: underline;
 }
 
-/* HERO */
 
-.hero__container {
 
-  padding: 100px 15px 100px 15px;
-  background-color: #eeeeee;
-}
 
-.hero__img__container {
-  max-height: 430px;
-}
 
-.hero__img {
-  background: url('../images/lofi_hero_image.png'); 
-  /* background: url('../images/hero-image-home.png'); */
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  top: -70px;
-  z-index: -1;
-}
 
-/* PROJECT DETAILS */
 
-.project__details__parent {
-  padding: 100px 0;
-}
 
-.project__details__h3 {
-  font-size: 13px;
-  color: #fff;
-  padding-bottom: 20px;
-}
 
-.project__details__p {
-  font-size: 20px;
-  color: #fff;
-  padding-bottom: 40px;
-}
-
-.project__details__summary {
-  font-size: 25px;
-  color: #fff;
-
-}
 
 
 /* FOOTER */
@@ -139,6 +97,11 @@ footer {
 
 
 
+
+
+
+
+
 /* DESKTOP SCREEN SIZE - min-width: 720px DESKTOP SIZE STARTS HERE (720PX) */
 
 @media only screen and (min-width: 775px) {
@@ -147,34 +110,35 @@ footer {
     margin: 0 auto;
     padding: 0 15px;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
-/* PROJECT DETAILS */
-
-.project__details__parent {
-  padding: 100px 0 40px 0;
-  display: block;
-  display: flex;
-  justify-content: space-between;
-}
-
-.project__details__h3 {
-  font-size: 13px;
-  color: #fff;
-  padding-bottom: 20px;
-}
-
-.project__details__p {
-  font-size: 20px;
-  color: #fff;
-  padding-bottom: 40px;
-}
-
-.project__details__summary {
-  font-size: 32px;
-  color: #fff;
-  width: 600px;
-}
-
 
 /* FOOTER */
 
@@ -195,23 +159,5 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
 }

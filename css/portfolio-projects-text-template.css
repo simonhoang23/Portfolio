@@ -25,7 +25,7 @@ section {
 }
 
 
-/* MOBILE SINGLE TEXT STYLE */
+/* SINGLE TEXT STYLE */
 
 
 .single__text__style__container {
@@ -50,76 +50,73 @@ section {
   padding-bottom: 20px;
 }
 
-/* MOBILE SINGLE TEXT STYLE */
 
   
 
 
-/* MOBILE TITLE AND TWO COLUMN TEXT STYLE */
+/* TITLE AND TWO COLUMN TEXT STYLE */
 
 
-.desktop__title__2__column__parent__main {
+.title__2__column__parent__main {
   padding: 100px 0;
 
 }
 
-.desktop__title__2__column__block {
+.title__2__column__block {
   display: block;
 }
 
-.desktop__title__2__column__parent__right {
+.title__2__column__parent__right {
 
 
 }
 
-.desktop__title__2__column__h3 {
+.title__2__column__h3 {
   font-size: 20px;
   padding-bottom: 20px;
   color: #D7196F;
 }
 
-.desktop__title__2__column__p {
+.title__2__column__p {
   font-size: 16px;
   color: #333333;
   line-height: 1.6;
   padding-bottom: 20px;
 }
 
-  /* MOBILE TITLE AND TWO COLUMN TEXT STYLE */
 
 
 
+  /* TITLE AND TWO COLUMN DESCRIPTION TEXT STYLE */
 
-  /* MOBILE TITLE AND TWO COLUMN DESCRIPTION TEXT STYLE */
-
-    .desktop__title__2__column__description__parent__main {
+    .title__2__column__description__parent__main {
 
     
     }
     
-    .desktop__title__2__column__description__block {
-      display: block;
+    .title__2__column__description__block {
+
     }
     
-    .desktop__title__2__column__description__parent__right {
+    .title__2__column__description__parent__right {
 
     
     }
     
-    .desktop__title__2__column__description__h3 {
+    .title__2__column__description__h3 {
       font-size: 20px;
       display: block;
       color: #D7196F;
       padding-bottom: 30px;
     }
     
-    .desktop__title__2__column__description__h4 {
+    .title__2__column__description__h4 {
        font-size: 16px;
        display: block;
        padding-bottom: 15px;
     }
     
-    .desktop__title__2__column__description__p {
+    .title__2__column__description__p {
       font-size: 16px;
       color: #333333;
       line-height: 1.6;
@@ -128,7 +125,6 @@ section {
       padding-bottom: 50px;
     }
 
-/* MOBILE TITLE AND TWO COLUMN DESCRIPTION TEXT STYLE */
 
 
 
@@ -196,25 +192,23 @@ section {
     display: block;
   }
 
-  /* DESKTOP SINGLE TEXT STYLE */
 
 
+/* TITLE AND TWO COLUMN TEXT STYLE */
 
-/* DESKTOP TITLE AND TWO COLUMN TEXT STYLE */
 
-
-.desktop__title__2__column__parent__main {
+.title__2__column__parent__main {
   display: flex;
   justify-content: space-between;
   padding: 200px 0;
 
 }
 
-.desktop__title__2__column__block {
+.title__2__column__block {
   display: block;
 }
 
-.desktop__title__2__column__parent__right {
+.title__2__column__parent__right {
   grid-template-columns: 1fr 1fr;
   display: grid;
   grid-gap: 30px;
@@ -222,13 +216,13 @@ section {
 
 }
 
-.desktop__title__2__column__h3 {
+.title__2__column__h3 {
    font-size: 20px;
    display: block;
    color: #D7196F;
 }
 
-.desktop__title__2__column__p {
+.title__2__column__p {
   font-size: 16px;
   width: 279px;
   padding-bottom: 30px;
@@ -239,27 +233,22 @@ section {
 
 
 
-/* DESKTOP TITLE AND TWO COLUMN TEXT STYLE */
-
-
-
-
 
 /* DESKTOP TITLE AND TWO COLUMN DESCRIPTION TEXT STYLE */
 
 
-.desktop__title__2__column__description__parent__main {
+.title__2__column__description__parent__main {
   display: flex;
   justify-content: space-between;
   padding: 200px 0;
 
 }
 
-.desktop__title__2__column__description__block {
+.title__2__column__description__block {
   display: block;
 }
 
-.desktop__title__2__column__description__parent__right {
+.title__2__column__description__parent__right {
   grid-template-columns: 1fr 1fr;
   display: grid;
   grid-gap: 30px;
@@ -267,7 +256,7 @@ section {
 
 }
 
-.desktop__title__2__column__description__h3 {
+.title__2__column__description__h3 {
   font-size: 20px;
   display: block;
   color: #D7196F;
@@ -279,7 +268,7 @@ section {
    padding-bottom: 15px;
 }
 
-.desktop__title__2__column__description__p {
+.title__2__column__description__p {
   font-size: 16px;
   color: #333333;
   line-height: 1.6;
@@ -288,11 +277,6 @@ section {
   color: #999999;
   padding-bottom: 50px;
 }
-
-
-
-/* DESKTOP TITLE AND TWO COLUMN DESCRIPTION TEXT STYLE */
-
 
 
 
