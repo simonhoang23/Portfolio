@@ -25,151 +25,119 @@ section {
 }
 
 
+/* MOBILE SINGLE TEXT STYLE */
 
 
+.single__text__style__container {
 
+}
 
-
-
-
-
-
-
-    /* MOBILE SINGLE TEXT STYLE ************************************************************************************/
-
-.mobile__single__text__style__parent {
+.single__text__style__parent {
   padding: 100px 0;
   
 }
 
-.mobile__single__text__style__h3 {
-  color: #D7196F;
-  padding-bottom: 20px;
-  font-size: 13px;
-
-}
-
-.mobile__single__text__style__p {
-  font-size: 20px;
-  color: #333333;
-  line-height: 1.6;
-  padding-bottom: 20px;
- 
-}
-
-    /* MOBILE SINGLE TEXT STYLE ************************************************************************************/
-
-
-
-
-
-
-    
-
-    /* MOBILE TITLE AND TWO COLUMN TEXT STYLE ************************************************************************************/
-
-    .mobile__title__2__column__parent__main {
-      padding: 100px 0;
-
-    }
-    
-    .mobile__title__2__column__block {
-
-    }
-    
-    .mobile__title__2__column__parent__right {
-     
-    }
-    
-    .mobile__title__2__column__h3 {
-       font-size: 20px;
-       padding-bottom: 20px;
-       color: #D7196F;
-    }
-    
-    .mobile__title__2__column__p {
-      font-size: 16px;
-      color: #333333;
-      line-height: 1.6;
-      padding-bottom: 20px;
-    }
-  
-    /* MOBILE TITLE AND TWO COLUMN TEXT STYLE ************************************************************************************/
-
-
-
-
-
-
-
-
-
-
-
-
-/* DISPLAY: NONE; DESKTOP --------------------------- DISPLAY: NONE; DESKTOP SINGLE TEXT STYLE */
-
-.single__text__style__parent {
-  padding: 200px 0;
-  display: flex;
-  justify-content: flex-end;
-  display: none;
-}
-
 .single__text__style__h3 {
-  font-size: 13px;
   color: #D7196F;
   padding-bottom: 20px;
-  display: none;
+  font-size: 13px;
 }
 
 .single__text__style__p {
-  width: 600px;
   font-size: 20px;
   color: #333333;
   line-height: 1.6;
-  display: none;
+  padding-bottom: 20px;
 }
 
+/* MOBILE SINGLE TEXT STYLE */
 
-/* DISPLAY: NONE; DESKTOP --------------------------- DISPLAY: NONE; DESKTOP TITLE AND TWO COLUMN TEXT STYLE */
+  
+
+
+/* MOBILE TITLE AND TWO COLUMN TEXT STYLE */
+
 
 .desktop__title__2__column__parent__main {
-  display: flex;
-  justify-content: space-between;
-  padding: 200px 0;
-  display: none;
+  padding: 100px 0;
+
 }
 
 .desktop__title__2__column__block {
-  display: none;
+  display: block;
 }
 
 .desktop__title__2__column__parent__right {
-  display: flex;
-  width: 600px;
-  display: none;
+
+
 }
 
 .desktop__title__2__column__h3 {
-   font-size: 20px;
-   display: none;
+  font-size: 20px;
+  padding-bottom: 20px;
+  color: #D7196F;
 }
 
 .desktop__title__2__column__p {
   font-size: 16px;
   color: #333333;
   line-height: 1.6;
-  display: none;
+  padding-bottom: 20px;
 }
 
-.desktop__title__2__column__p__left__padding {
-  padding-left: 30px;
-  font-size: 16px;
-  color: #333333;
-  line-height: 1.6;
-  display: none;
-}
+  /* MOBILE TITLE AND TWO COLUMN TEXT STYLE */
+
+
+
+
+  /* MOBILE TITLE AND TWO COLUMN DESCRIPTION TEXT STYLE */
+
+    .desktop__title__2__column__description__parent__main {
+
+    
+    }
+    
+    .desktop__title__2__column__description__block {
+      display: block;
+    }
+    
+    .desktop__title__2__column__description__parent__right {
+
+    
+    }
+    
+    .desktop__title__2__column__description__h3 {
+      font-size: 20px;
+      display: block;
+      color: #D7196F;
+      padding-bottom: 30px;
+    }
+    
+    .desktop__title__2__column__description__h4 {
+       font-size: 16px;
+       display: block;
+       padding-bottom: 15px;
+    }
+    
+    .desktop__title__2__column__description__p {
+      font-size: 16px;
+      color: #333333;
+      line-height: 1.6;
+      display: block;
+      color: #999999;
+      padding-bottom: 50px;
+    }
+
+/* MOBILE TITLE AND TWO COLUMN DESCRIPTION TEXT STYLE */
+
+
+
+
+
+
+
+
+
 
 
 
@@ -200,7 +168,7 @@ section {
 
 
 
-    /* DESKTOP SINGLE TEXT STYLE ************************************************************************************/
+    /* DESKTOP SINGLE TEXT STYLE */
 
   .single__text__style__container {
 
@@ -228,11 +196,11 @@ section {
     display: block;
   }
 
-  /* DESKTOP SINGLE TEXT STYLE ************************************************************************************/
+  /* DESKTOP SINGLE TEXT STYLE */
 
 
 
-/* DESKTOP TITLE AND TWO COLUMN TEXT STYLE ************************************************************************************/
+/* DESKTOP TITLE AND TWO COLUMN TEXT STYLE */
 
 
 .desktop__title__2__column__parent__main {
@@ -271,13 +239,13 @@ section {
 
 
 
-/* DESKTOP TITLE AND TWO COLUMN TEXT STYLE ************************************************************************************/
+/* DESKTOP TITLE AND TWO COLUMN TEXT STYLE */
 
 
 
 
 
-/* DESKTOP TITLE AND TWO COLUMN DESCRIPTION TEXT STYLE ************************************************************************************/
+/* DESKTOP TITLE AND TWO COLUMN DESCRIPTION TEXT STYLE */
 
 
 .desktop__title__2__column__description__parent__main {
@@ -323,102 +291,7 @@ section {
 
 
 
-/* DESKTOP TITLE AND TWO COLUMN DESCRIPTION TEXT STYLE ************************************************************************************/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-/* DISPLAY: NONE; MOBILE --------------------------- DISPLAY: NONE; MOBILE SINGLE TEXT STYLE */
-
-  .mobile__single__text__style__parent {
-    padding: 200px 0;
-    display: flex;
-    justify-content: flex-end;
-    display: none;
-  }
-  
-  .mobile__single__text__style__h3 {
-    font-size: 15px;
-    color: #D7196F;
-    padding-bottom: 20px;
-    display: none;
-  }
-  
-  .mobile__single__text__style__p {
-    width: 600px;
-    font-size: 20px;
-    color: #333333;
-    line-height: 1.6;
-    display: none;
-  }
-
-
-
-
-
-  /* DISPLAY: NONE; MOBILE --------------------------- DISPLAY: NONE; MOBILE TITLE AND TWO COLUMN TEXT STYLE */
-
-  .mobile__title__2__column__parent__main {
-    padding: 100px 0;
-    display: none;
-  }
-  
-  .mobile__title__2__column__block {
-    display: none;
-  }
-  
-  .mobile__title__2__column__parent__right {
-    display: none;
-  }
-  
-  .mobile__title__2__column__h3 {
-     font-size: 20px;
-     padding-bottom: 20px;
-     display: none;
-  }
-  
-  .mobile__title__2__column__p {
-    font-size: 16px;
-    color: #333333;
-    line-height: 1.6;
-    padding-bottom: 20px;
-    display: none;
-  }
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* DESKTOP TITLE AND TWO COLUMN DESCRIPTION TEXT STYLE */
 
 
 
