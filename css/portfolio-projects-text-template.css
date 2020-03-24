@@ -68,7 +68,6 @@ section {
 
 .title__2__column__parent__right {
 
-
 }
 
 .title__2__column__h3 {
@@ -96,7 +95,6 @@ section {
 
     .title__2__column__description__parent__main {
 
-    
     }
     
     .title__2__column__description__block {
@@ -104,7 +102,6 @@ section {
     }
     
     .title__2__column__description__parent__right {
-
     
     }
     
@@ -133,7 +130,11 @@ section {
 
     .title__2__column__key__learnings__parent__main {
 
-    
+    }
+
+    hr {
+      border: 0.5px solid #cccccc;
+      margin-bottom: 30px;
     }
     
     .title__2__column__key__learnings__block {
@@ -141,7 +142,6 @@ section {
     }
     
     .title__2__column__key__learnings__parent__right {
-
     
     }
     
@@ -301,7 +301,7 @@ section {
  }
 
  hr {
-  border: 0.5px solid #999999;
+  border: 0.5px solid #cccccc;
   margin-bottom: 30px;
 }
 
