@@ -1,0 +1,213 @@
+/* MOBILE SCREEN SIZE */
+
+/* DEFINE VARIABLES*/
+
+:root {
+  --main__background__colour: #f1efed;
+  --main__text__colour: #333333;
+  --main__line__height: 1.3;
+  --container__width: 1500px;
+}
+
+body {
+  color: var(--main__text__colour);
+  font-family: 'Playfair Display', serif;
+  line-height: var(--main__line__height);
+  background-color: #f1efed;
+  /* Project pages background-color: #f1efed */
+}
+
+/* MOBILE WIDTH SIZE */
+
+section {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* HEADER */
+
+header {
+  height: 70px;
+  /* position: sticky;
+  top: 0; */
+}
+
+.project__details__background {
+  background-color: #bbbbbb;
+}
+
+.header__container {
+  height: 70px;
+}
+
+.header__grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 17px;
+}
+
+.header__logo {
+  width: 100px;
+}
+.header__nav__grid {
+  display: flex;
+}
+
+.header__portfolio {
+  text-decoration: none;
+  color: #333333;
+  font-size: 18px;
+  
+}
+
+.header__profile {
+  text-decoration: none;
+  color: #333333;
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+.header__portfolio:hover {
+  text-decoration: underline;
+}
+
+.header__profile:hover {
+  text-decoration: underline;
+}
+
+/* HERO */
+
+.hero__container {
+  padding: 100px 15px 100px 15px;
+}
+
+.hero__img__container {
+  max-height: 430px;
+}
+
+.hero__img {
+  background: url('../images/lofi_hero_image.png'); 
+  /* background: url('../images/hero-image-home.png'); */
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: -70px;
+  z-index: -1;
+}
+
+/* PROJECT DETAILS */
+
+.project__details__parent {
+  padding: 100px 0;
+}
+
+.project__details__h3 {
+  font-size: 13px;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.project__details__p {
+  font-size: 20px;
+  color: #fff;
+  padding-bottom: 40px;
+}
+
+.project__details__summary {
+  font-size: 25px;
+  color: #fff;
+
+}
+
+
+/* FOOTER */
+
+footer {
+  padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+/* DESKTOP SCREEN SIZE - min-width: 720px DESKTOP SIZE STARTS HERE (720PX) */
+
+@media only screen and (min-width: 775px) {
+  section {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+/* PROJECT DETAILS */
+
+.project__details__parent {
+  padding: 100px 0 40px 0;
+  display: block;
+  display: flex;
+  justify-content: space-between;
+}
+
+.project__details__h3 {
+  font-size: 13px;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.project__details__p {
+  font-size: 20px;
+  color: #fff;
+  padding-bottom: 40px;
+}
+
+.project__details__summary {
+  font-size: 32px;
+  color: #fff;
+  width: 600px;
+}
+
+
+/* FOOTER */
+
+footer {
+  padding-bottom: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
