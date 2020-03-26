@@ -81,6 +81,10 @@ section {
       padding-bottom: 50px;
     }
 
+    .title__2__column__key__learnings__img {
+      width: 100%;
+    }
+
 
 
 
@@ -103,15 +107,10 @@ section {
   padding: 200px 20px 200px 20px;
  }
 
- .title__2__column__key__learnings__parent__main {
-  display: flex;
-  justify-content: space-between;
-  /* padding: 200px 0; */
-    
-}
-
 .title__2__column__key__learnings__parent__right {
-  width: 600px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 
 }
 
@@ -134,10 +133,13 @@ section {
   display: block;
   color: #999999;
   padding-bottom: 50px;
+  width: 400px;
 }
 
 
-
+.title__2__column__key__learnings__img {
+  width: 100%;
+}
 
 
 
