@@ -25,6 +25,26 @@ section {
 }
 
 
+  /* SINGLE FULL WIDTH IMAGE MOBILE AND DESKTOP */
+
+.single__full__width__image {
+  width: 100%;
+  padding: 100px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     /* TITLE AND TWO COLUMN KEY LEARNINGS PARAGRAPH TEXT STYLE */
 
     .title__2__column__key__learnings__parent__main {
