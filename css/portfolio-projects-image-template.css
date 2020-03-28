@@ -24,66 +24,90 @@ section {
   padding: 0 20px;
 }
 
-
-  /* SINGLE FULL WIDTH IMAGE MOBILE AND DESKTOP */
+/* SINGLE FULL WIDTH IMAGE MOBILE AND DESKTOP */
 
 .single__full__width__image {
   width: 100%;
   padding: 100px 0;
 }
 
+/* LEFT TEXT AND IMAGE TWO COLUMN TEXT STYLE */
+
+.left__text__image__2__column__parent__main {
+}
+
+.left__text__image__2__column__block {
+}
+
+.left__text__image__2__column__parent__right {
+}
+
+.left__text__image__2__column__h3 {
+  font-size: 20px;
+  color: #d7196f;
+  padding-bottom: 30px;
+}
+
+.left__text__image__2__column__h4 {
+  font-size: 16px;
+
+  padding-bottom: 15px;
+}
+
+.left__text__image__2__column__p {
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.6;
+  color: #999999;
+  padding-bottom: 50px;
+}
+
+.left__text__image__2__column__img {
+  width: 100%;
+}
 
 
+    /* RIGHT IMAGE AND TEXT TWO COLUMN TEXT STYLE */
 
 
-
-
-
-
-
-
-
-
-
-    /* TITLE AND TWO COLUMN KEY LEARNINGS PARAGRAPH TEXT STYLE */
-
-    .title__2__column__key__learnings__parent__main {
-
-    
+    .right__image__text__2__column__container {
+      padding: 100px 20px 100px 20px;
     }
-    
-    .title__2__column__key__learnings__block {
+  
+    .right__image__text__2__column__parent__right {
 
     }
-    
-    .title__2__column__key__learnings__parent__right {
-
-    
-    }
-    
-    .title__2__column__key__learnings__h3 {
+  
+    .right__image__text__2__column__h3 {
       font-size: 20px;
-      color: #D7196F;
-      padding-bottom: 30px;
+      display: block;
+      color: #d7196f;
     }
-    
-    .title__2__column__key__learnings__h4 {
-       font-size: 16px;
 
-       padding-bottom: 15px;
+    .right__image__text__2__column__parent__text {
+      padding-top: 50px;
     }
-    
-    .title__2__column__key__learnings__p {
+  
+    .right__image__text__2__column__h4 {
+      font-size: 16px;
+      display: block;
+      padding-bottom: 15px;
+    }
+  
+    .right__image__text__2__column__p {
       font-size: 16px;
       color: #333333;
       line-height: 1.6;
+      display: block;
       color: #999999;
       padding-bottom: 50px;
     }
-
-    .title__2__column__key__learnings__img {
+  
+    .right__image__text__2__column__img {
       width: 100%;
+     
     }
+
 
 
 
@@ -100,46 +124,90 @@ section {
 
 
 
+  /* LEFT TEXT AND IMAGE TWO COLUMN TEXT STYLE */
 
- /* TITLE AND TWO COLUMN KEY LEARNINGS PARAGRAPH TEXT STYLE */
+  .left__text__image__2__column__container {
+    padding: 200px 20px 200px 20px;
+  }
 
- .title__2__column__key__learnings__container {
-  padding: 200px 20px 200px 20px;
- }
+  .left__text__image__2__column__parent__right {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
 
-.title__2__column__key__learnings__parent__right {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  .left__text__image__2__column__h3 {
+    font-size: 20px;
+    display: block;
+    color: #d7196f;
+  }
 
-}
+  .left__text__image__2__column__h4 {
+    font-size: 16px;
+    display: block;
+    padding-bottom: 15px;
+  }
 
-.title__2__column__key__learnings__h3 {
-  font-size: 20px;
-  display: block;
-  color: #D7196F;
-}
+  .left__text__image__2__column__p {
+    font-size: 16px;
+    color: #333333;
+    line-height: 1.6;
+    display: block;
+    color: #999999;
+    padding: 0 20px 50px 0;
+    width: 400px;
+  }
 
-.title__2__column__key__learnings__h4 {
-  font-size: 16px;
-  display: block;
-  padding-bottom: 15px;
-}
-
-.title__2__column__key__learnings__p {
-  font-size: 16px;
-  color: #333333;
-  line-height: 1.6;
-  display: block;
-  color: #999999;
-  padding-bottom: 50px;
-  width: 400px;
-}
+  .left__text__image__2__column__img {
+    width: 100%;
+  }
 
 
-.title__2__column__key__learnings__img {
-  width: 100%;
-}
+
+
+    /* RIGHT IMAGE AND TEXT TWO COLUMN TEXT STYLE */
+
+
+    .right__image__text__2__column__container {
+      padding: 200px 20px 200px 20px;
+    }
+  
+    .right__image__text__2__column__parent__right {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+  
+    .right__image__text__2__column__h3 {
+      font-size: 20px;
+      display: block;
+      color: #d7196f;
+    }
+
+    .right__image__text__2__column__parent__text {
+      padding-left: 20px;
+    }
+  
+    .right__image__text__2__column__h4 {
+      font-size: 16px;
+      display: block;
+      padding-bottom: 15px;
+    }
+  
+    .right__image__text__2__column__p {
+      font-size: 16px;
+      color: #333333;
+      line-height: 1.6;
+      display: block;
+      color: #999999;
+      padding: 0 0 50px 0;
+      width: 400px;
+    }
+  
+    .right__image__text__2__column__img {
+      width: 100%;
+     
+    }
 
 
 
