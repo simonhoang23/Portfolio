@@ -24,12 +24,23 @@ section {
   padding: 0 20px;
 }
 
+
+/* SINGLE IMAGE MOBILE AND DESKTOP */
+
+.single__image {
+  width: 100%;
+  padding: 100px 0;
+}
+
+
 /* SINGLE FULL WIDTH IMAGE MOBILE AND DESKTOP */
 
 .single__full__width__image {
   width: 100%;
   padding: 100px 0;
 }
+
+
 
 /* LEFT TEXT AND IMAGE TWO COLUMN TEXT STYLE */
 
