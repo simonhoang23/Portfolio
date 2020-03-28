@@ -33,8 +33,9 @@ header {
   top: 0; */
 }
 
-.project__details__background {
-  background-color: #bbbbbb;
+
+.portfolio__page__details__background {
+  background-color: #dcbabb;
 }
 
 .header__container {
@@ -51,6 +52,7 @@ header {
 .header__logo {
   width: 100px;
 }
+
 .header__nav__grid {
   display: flex;
 }
@@ -88,7 +90,7 @@ header {
 }
 
 .hero__img {
-  background: url('../images/lofi_hero_image.png'); 
+  background: url('../images/portfolio_page_hero_image.png'); 
   /* background: url('../images/hero-image-home.png'); */
   height: 500px;
   background-position: center;
@@ -99,25 +101,25 @@ header {
   z-index: -1;
 }
 
-/* PROJECT DETAILS */
+/* PORTFOLIO PAGE DETAILS */
 
-.project__details__parent {
-  padding: 100px 0;
+.portfolio__page__details__parent {
+  padding: 100px 0 100px 0;
 }
 
-.project__details__h3 {
+.portfolio__page__details__h3 {
   font-size: 13px;
   color: #fff;
   padding-bottom: 20px;
 }
 
-.project__details__p {
+.portfolio__page__details__p {
   font-size: 20px;
   color: #fff;
   padding-bottom: 40px;
 }
 
-.project__details__summary {
+.portfolio__page__details__summary {
   font-size: 25px;
   color: #fff;
 
@@ -144,29 +146,32 @@ footer {
     margin: 0 auto;
     padding: 0 20px;
   }
-  
-/* PROJECT DETAILS */
 
-.project__details__parent {
-  padding: 100px 0 40px 0;
+
+
+  
+/* PORTFOLIO PAGE DETAILS */
+
+.portfolio__page__details__parent {
+  padding: 100px 0 100px 0;
   display: block;
   display: flex;
   justify-content: space-between;
 }
 
-.project__details__h3 {
+.portfolio__page__details__h3 {
   font-size: 13px;
   color: #fff;
   padding-bottom: 20px;
 }
 
-.project__details__p {
+.portfolio__page__details__p {
   font-size: 20px;
   color: #fff;
   padding-bottom: 40px;
 }
 
-.project__details__summary {
+.portfolio__page__details__summary {
   font-size: 32px;
   color: #fff;
   width: 600px;
