@@ -81,14 +81,16 @@ header {
 }
 
 .hero__h1 {
-  font-size: 26px;
+  font-size: 20px;
   line-height: 1.4;
   color: #333333;
+  /* padding: 25px 86px; */
 }
 
 .hero__p {
   font-size: 18px;
   padding-top: 25px;
+  /* padding: 25px 86px; */
 }
 
 .hero__a {
@@ -128,6 +130,46 @@ header {
 }
 
 
+   /* TITLE AND TWO COLUMN KEY LEARNINGS PARAGRAPH TEXT STYLE */
+
+
+.title__2__column__key__learnings__parent__main {
+
+}
+
+hr {
+  border: 0.5px solid #cccccc;
+  margin-bottom: 30px;
+}
+
+.title__2__column__key__learnings__block {
+
+}
+
+.title__2__column__key__learnings__parent__right {
+
+}
+
+.title__2__column__key__learnings__h3 {
+  font-size: 20px;
+  color: #D7196F;
+  padding-bottom: 30px;
+}
+
+.title__2__column__key__learnings__h4 {
+   font-size: 16px;
+   padding-bottom: 15px;
+}
+
+.title__2__column__key__learnings__p {
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.6;
+  color: #999999;
+  padding-bottom: 50px;
+}
+
+
 
 
 
@@ -162,19 +204,19 @@ footer {
 /* HERO */
 
 .hero__container {
-  padding: 280px 15px 450px 15px;
+  padding: 150px 15px 150px 15px;
 }
 
 .hero__h1 {
-  font-size: 26px;
-  line-height: 1.4;
+  font-size: 20px;
+  line-height: 1.6;
   color: #333333;
-  padding: 0px 86px;
+  width: 763px;
 }
 
 .hero__p {
-  font-size: 23px;
-  padding: 25px 86px;
+  font-size: 18px;
+
 }
 
 .hero__a {
@@ -184,10 +226,57 @@ footer {
 }
 
 .hero__button__parent {
-  padding: 10px 87px;
+
 }
 
 
+ /* TITLE AND TWO COLUMN KEY LEARNINGS PARAGRAPH TEXT STYLE */
+
+ .title__2__column__key__learnings__container {
+  padding: 0 20px 0 20px;
+ }
+
+ hr {
+  border: 0.5px solid #cccccc;
+  margin-bottom: 30px;
+}
+
+ .title__2__column__key__learnings__parent__main {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 200px 0; */
+    
+}
+
+.title__2__column__key__learnings__block {
+  display: block;
+}
+
+.title__2__column__key__learnings__parent__right {
+  width: 600px;
+
+}
+
+.title__2__column__key__learnings__h3 {
+  font-size: 20px;
+  display: block;
+  color: #D7196F;
+}
+
+.title__2__column__key__learnings__h4 {
+  font-size: 16px;
+  display: block;
+  padding-bottom: 15px;
+}
+
+.title__2__column__key__learnings__p {
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.6;
+  display: block;
+  color: #999999;
+  padding-bottom: 50px;
+}
 
 
 
