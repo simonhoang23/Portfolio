@@ -172,6 +172,13 @@ hr {
   padding-bottom: 50px;
 }
 
+ /* UX COLLECTIVE LINK TEXT*/
+
+ .achievements__text__links {
+  color: #D7196F;
+}
+
+
 
 
 
@@ -282,7 +289,6 @@ footer {
   color: #999999;
   padding-bottom: 50px;
 }
-
 
 
 
