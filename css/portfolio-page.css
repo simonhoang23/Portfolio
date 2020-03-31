@@ -129,7 +129,7 @@ header {
 /* PROJECTS */
 
 .projects__container {
-  /* margin: 100px 0 100px 0; */
+  margin-top: 100px;
 }
 
 .projects__block__a {
@@ -212,7 +212,7 @@ footer {
 /* PROJECTS */
 
 .projects__container {
-  padding: 200px 0 200px 0;
+  margin-top: 200px;
 }
 
 .projects__grid {
