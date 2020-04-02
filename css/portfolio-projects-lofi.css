@@ -123,6 +123,78 @@ header {
 
 }
 
+/* SINGLE IMAGE MOBILE AND DESKTOP */
+
+.single__image {
+  width: 100%;
+  padding: 100px 0;
+}
+
+
+/* SINGLE TEXT STYLE */
+
+
+.single__text__style__container {
+
+}
+
+.single__text__style__parent {
+  padding: 100px 0;
+  
+}
+
+.single__text__style__h3 {
+  color: #D7196F;
+  padding-bottom: 20px;
+  font-size: 13px;
+}
+
+.single__text__style__p {
+  font-size: 20px;
+  color: #333333;
+  line-height: 1.6;
+  padding-bottom: 20px;
+}
+
+
+
+
+/* TITLE AND TWO COLUMN TEXT STYLE */
+
+
+.title__2__column__parent__main {
+  padding: 100px 0;
+
+}
+
+.title__2__column__block {
+
+}
+
+.title__2__column__parent__right {
+
+}
+
+.title__2__column__h3 {
+  font-size: 20px;
+  padding-bottom: 20px;
+  color: #D7196F;
+}
+
+.title__2__column__p {
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.6;
+  padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
 
 /* FOOTER */
 
@@ -171,6 +243,99 @@ footer {
   color: #fff;
   width: 600px;
 }
+
+  /* SINGLE IMAGE MOBILE AND DESKTOP */
+
+  .single__image__container {
+    text-align: center;
+    }
+    
+    .single__image {
+      width: 80%;
+      padding: 200px 0;
+    }
+
+
+ /* DESKTOP SINGLE TEXT STYLE */
+
+ .single__text__style__container {
+
+}
+
+.single__text__style__parent {
+  padding: 100px 0;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.single__text__style__h3 {
+  font-size: 13px;
+  color: #D7196F;
+  padding-bottom: 20px;
+
+}
+
+.single__text__style__p {
+  width: 600px;
+  font-size: 20px;
+  color: #333333;
+  line-height: 1.6;
+
+}
+
+
+/* TITLE AND TWO COLUMN TEXT STYLE */
+
+
+.title__2__column__parent__main {
+  display: flex;
+  justify-content: space-between;
+  padding: 200px 0;
+
+}
+
+.title__2__column__block {
+  display: block;
+}
+
+.title__2__column__parent__right {
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-gap: 30px;
+  width: 600px;
+
+}
+
+.title__2__column__h3 {
+   font-size: 20px;
+   display: block;
+   color: #D7196F;
+}
+
+.title__2__column__p {
+  font-size: 16px;
+  width: 279px;
+  padding-bottom: 30px;
+  color: #333333;
+  line-height: 1.6;
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* FOOTER */
