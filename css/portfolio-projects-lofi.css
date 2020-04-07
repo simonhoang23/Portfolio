@@ -334,7 +334,12 @@ header {
 
 
 
+/* SINGLE FULL WIDTH IMAGE MOBILE AND DESKTOP */
 
+.single__full__width__image {
+  width: 100%;
+  padding: 50px 0;
+}
 
 
 
