@@ -134,7 +134,7 @@ header {
 
 .single__full__width__image {
   width: 100%;
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 
@@ -145,7 +145,7 @@ header {
 }
 
 .single__text__style__parent {
-  padding: 100px 0;
+  padding: 50px 0;
   
 }
 
@@ -169,7 +169,7 @@ header {
 
 
 .title__2__column__parent__main {
-  padding: 100px 0;
+  padding: 50px 0;
 
 }
 
@@ -217,7 +217,7 @@ header {
     .title__2__column__description__h3 {
       font-size: 20px;
       color: #D7196F;
-      padding-bottom: 30px;
+      padding: 50px 0 30px 0;
     }
     
     .title__2__column__description__h4 {
@@ -234,7 +234,62 @@ header {
     }
 
 
+/* RIGHT IMAGE AND TEXT TWO COLUMN TEXT STYLE */
 
+
+.right__image__text__2__column__container {
+  padding: 50px 20px 100px 20px;
+}
+
+.right__image__text__2__column__parent__right {
+
+}
+
+.right__image__text__2__column__h3 {
+  font-size: 20px;
+  display: block;
+  color: #d7196f;
+}
+
+.right__image__text__2__column__parent__text {
+
+}
+
+.right__image__text__2__column__h4 {
+  font-size: 16px;
+  display: block;
+  padding-bottom: 15px;
+}
+
+.right__image__text__2__column__p {
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.6;
+  display: block;
+  color: #999999;
+  padding-bottom: 50px;
+}
+
+.right__image__text__2__column__parent__text {
+  padding-bottom: 0;
+}
+
+.right__image__text__2__column__img__max__width {
+  max-width: 220px;
+  margin: 0 auto;
+}
+
+.right__image__text__2__column__img {
+  width: 100%;
+ 
+}
+
+
+.square {
+  background-color: black;
+  height: 500px;
+  width: 500px;
+}
 
 
 
@@ -419,7 +474,54 @@ footer {
 }
 
 
+ /* RIGHT IMAGE AND TEXT TWO COLUMN TEXT STYLE */
 
+
+ .right__image__text__2__column__container {
+  padding: 200px 20px 200px 20px;
+}
+
+.right__image__text__2__column__parent__right {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.right__image__text__2__column__h3 {
+  font-size: 20px;
+  display: block;
+  color: #d7196f;
+}
+
+.right__image__text__2__column__parent__text {
+  padding-bottom: 100px;
+}
+
+.right__image__text__2__column__h4 {
+  font-size: 16px;
+  display: block;
+  padding-bottom: 15px;
+}
+
+.right__image__text__2__column__p {
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.6;
+  display: block;
+  color: #999999;
+  padding: 0 0 50px 0;
+  width: 400px;
+}
+
+.right__image__text__2__column__img__max__width {
+  max-width: 100%;
+  margin: 0;
+}
+
+.right__image__text__2__column__img {
+  width: 100%;
+ 
+}
 
 
 
