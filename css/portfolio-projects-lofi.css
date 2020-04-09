@@ -341,6 +341,39 @@ header {
   padding: 50px 0;
 }
 
+/* TITLE AND TWO COLUMN PROFILE AND INTERACTIVE MAP PARAGRAPH TEXT STYLE */
+
+.title__2__column__key__learnings__parent__main {
+
+}
+
+.title__2__column__key__learnings__block {
+
+}
+
+.title__2__column__key__learnings__parent__right {
+
+}
+
+.title__2__column__key__learnings__h3 {
+  font-size: 20px;
+  color: #D7196F;
+  padding-bottom: 30px;
+}
+
+.title__2__column__key__learnings__h4 {
+   font-size: 16px;
+
+   padding-bottom: 15px;
+}
+
+.title__2__column__key__learnings__p {
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.6;
+  color: #999999;
+  padding-bottom: 50px;
+}
 
 
 
@@ -616,7 +649,48 @@ footer {
   }
 
 
+/* TITLE AND TWO COLUMN PROFILE AND INTERACTIVE MAP PARAGRAPH TEXT STYLE */
 
+.title__2__column__key__learnings__container {
+  padding: 200px 20px 200px 20px;
+ }
+
+ .title__2__column__key__learnings__parent__main {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 200px 0; */
+    
+}
+
+.title__2__column__key__learnings__block {
+  display: block;
+}
+
+.title__2__column__key__learnings__parent__right {
+  width: 600px;
+
+}
+
+.title__2__column__key__learnings__h3 {
+  font-size: 20px;
+  display: block;
+  color: #D7196F;
+}
+
+.title__2__column__key__learnings__h4 {
+  font-size: 16px;
+  display: block;
+  padding-bottom: 15px;
+}
+
+.title__2__column__key__learnings__p {
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.6;
+  display: block;
+  color: #999999;
+  padding-bottom: 50px;
+}
 
 
 
