@@ -240,6 +240,10 @@ transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 
 /* FOOTER */
 
+.footer__container {
+  border: 1px red solid;
+}
+
 footer {
   padding-bottom: 200px;
 
