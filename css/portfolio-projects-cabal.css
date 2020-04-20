@@ -377,6 +377,56 @@ header {
 
 
 
+/* RIGHT IMAGE AND TEXT TWO COLUMN TEXT STYLE */
+
+
+.right__image__text__2__column__container {
+  padding: 100px 20px 100px 20px;
+}
+
+.right__image__text__2__column__parent__right {
+
+}
+
+.right__image__text__2__column__h3 {
+  font-size: 20px;
+  display: block;
+  color: #d7196f;
+}
+
+.right__image__text__2__column__parent__text {
+  padding-top: 50px;
+}
+
+.right__image__text__2__column__h4 {
+  font-size: 16px;
+  display: block;
+  padding-bottom: 15px;
+}
+
+.right__image__text__2__column__p {
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.6;
+  display: block;
+  color: #999999;
+  padding-bottom: 50px;
+}
+
+.right__image__text__2__column__img {
+  width: 100%;
+ 
+}
+
+
+.square {
+  background-color: black;
+  height: 500px;
+  width: 500px;
+}
+
+
+
 
 
 /* MOBILE FOOTER */
@@ -597,6 +647,50 @@ footer {
   padding-bottom: 50px;
 }
 
+/* RIGHT IMAGE AND TEXT TWO COLUMN TEXT STYLE */
+
+
+.right__image__text__2__column__container {
+  padding: 200px 20px 200px 20px;
+}
+
+.right__image__text__2__column__parent__right {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.right__image__text__2__column__h3 {
+  font-size: 20px;
+  display: block;
+  color: #d7196f;
+}
+
+.right__image__text__2__column__parent__text {
+  padding-left: 20px;
+}
+
+.right__image__text__2__column__h4 {
+  font-size: 16px;
+  display: block;
+  padding-bottom: 15px;
+}
+
+.right__image__text__2__column__p {
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.6;
+  display: block;
+  color: #999999;
+  padding: 0 0 50px 0;
+  width: 400px;
+}
+
+.right__image__text__2__column__img {
+  width: 100%;
+ 
+}
+
 
  /* RIGHT IMAGE AND TEXT TWO COLUMN TEXT STYLE */
 
@@ -618,7 +712,7 @@ footer {
 }
 
 .right__image__text__2__column__parent__text {
-  padding-bottom: 110px;
+  /* padding-bottom: 110px; */
 }
 
 .right__image__text__2__column__h4 {
@@ -697,7 +791,7 @@ footer {
   }
 
 
-/* TITLE AND TWO COLUMN PROFILE AND INTERACTIVE MAP PARAGRAPH TEXT STYLE */
+/* TITLE AND TWO COLUMN KEY LEARNINGS TEXT STYLE */
 
 .title__2__column__key__learnings__container {
   padding: 0 20px 0 20px;
@@ -740,6 +834,9 @@ footer {
   color: #999999;
   padding-bottom: 50px;
 }
+
+
+
 
 
 
