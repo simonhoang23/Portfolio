@@ -483,7 +483,7 @@ footer {
     
     .single__image {
       width: 80%;
-      padding: 200px 0;
+      padding: 100px 0;
     }
 
 
@@ -522,7 +522,7 @@ footer {
 .title__2__column__parent__main {
   display: flex;
   justify-content: space-between;
-  padding: 200px 0;
+  padding: 100px 0;
 
 }
 
@@ -560,7 +560,7 @@ footer {
 .title__2__column__description__parent__main {
   display: flex;
   justify-content: space-between;
-  padding: 200px 0 100px 0;
+  padding: 100px 0 100px 0;
 
 }
 
@@ -603,7 +603,7 @@ footer {
 
 
  .right__image__text__2__column__container {
-  padding: 200px 20px 200px 20px;
+  padding: 100px 20px 100px 20px;
 }
 
 .right__image__text__2__column__parent__right {
