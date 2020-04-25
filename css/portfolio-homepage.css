@@ -240,6 +240,12 @@ footer {
  
 }
 
+.projects__flex__landscape__img {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 90px;
+}
+
 .projects__grid {
   display: flex;
   justify-content: space-evenly;
