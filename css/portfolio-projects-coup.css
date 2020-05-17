@@ -34,7 +34,7 @@ header {
 }
 
 .project__details__background {
-  background-color: #BDAA83;
+  background-color: #B4CBDB;
 }
 
 .header__container {
@@ -127,7 +127,7 @@ header {
 
 .single__image {
   width: 100%;
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 /* SINGLE FULL WIDTH IMAGE MOBILE AND DESKTOP */
@@ -361,6 +361,13 @@ footer {
       padding: 100px 0;
     }
 
+    /* SINGLE FULL WIDTH IMAGE MOBILE AND DESKTOP */
+
+.single__full__width__image {
+  width: 100%;
+  padding: 100px 0;
+}
+
 
  /* DESKTOP SINGLE TEXT STYLE */
 
@@ -375,6 +382,10 @@ footer {
   
 }
 
+.single__text__style__block {
+  width: 850px;
+}
+
 .single__text__style__h3 {
   font-size: 13px;
   color: #D7196F;
@@ -383,7 +394,7 @@ footer {
 }
 
 .single__text__style__p {
-  width: 850px;
+  
   font-size: 20px;
   color: #333333;
   line-height: 1.6;
