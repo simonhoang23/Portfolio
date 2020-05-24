@@ -3,7 +3,7 @@
 /* DEFINE VARIABLES*/
 
 :root {
-  --main__background__colour: #eeeeee;
+  --main__background__colour: #F0F1F3;
   --main__text__colour: #333333;
   --main__line__height: 1.3;
   --container__width: 1500px;
@@ -13,7 +13,7 @@ body {
   color: var(--main__text__colour);
   font-family: 'Playfair Display', serif;
   line-height: var(--main__line__height);
-  background-color: #eeeeee;
+  background-color: #F0F1F3;
   /* Project pages background-color: #eeeeee */
 }
 
@@ -119,7 +119,7 @@ header {
 }
 
 .hero__button__hover {
-    background-color: #eeeeee; 
+    background-color: #F0F1F3; 
     color: 333333; 
     border: 2px solid #333333;
   
@@ -253,7 +253,7 @@ hr {
 
 footer {
   padding-bottom: 50px;
-  background-color: #eeeeee;
+
 }
 
 
@@ -428,7 +428,7 @@ hr {
 
 footer {
   padding-bottom: 100px;
-  background-color: #eeeeee;
+  
 }
 
 
