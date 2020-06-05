@@ -170,7 +170,7 @@ header {
   /* TITLE AND TWO COLUMN DESCRIPTION TEXT STYLE */
 
   hr {
-    border: 0.5px solid #999999;
+    border: 0.5px solid #C4CAD0;
     margin-bottom: 30px;
   }
 
@@ -262,7 +262,7 @@ header {
 }
 
 hr {
-  border: 0.5px solid #999999;
+  border: 0.5px solid #C4CAD0;
   margin-bottom: 50px;
  }
 
@@ -462,7 +462,7 @@ footer {
 }
 
 hr {
-  border: 0.5px solid #999999;
+  border: 0.5px solid #C4CAD0;
   margin: 100px 0 50px 0;
  }
 
