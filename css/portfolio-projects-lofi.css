@@ -376,9 +376,28 @@ header {
 }
 
 
+/* TOP */
 
+html {
+  scroll-behavior: smooth;
+}
 
-/* FOOTER */
+.parent__top {
+  position: sticky;
+  top: 500px;
+  margin-left: 10px;
+}
+
+.img__top {
+  height: 50px;
+  width: 50px;
+  opacity: 0.37;
+}
+
+.img__top:hover {
+  opacity: 1.37;
+}
+
 
 /* MOBILE FOOTER */
 
@@ -741,7 +760,23 @@ footer {
   padding-bottom: 50px;
 }
 
+/* TOP */
 
+.parent__top {
+  position: sticky;
+  top: 500px;
+  margin-left: 40px;
+}
+
+.img__top {
+  height: 50px;
+  width: 50px;
+  opacity: 0.37;
+}
+
+.img__top:hover {
+  opacity: 0.60;
+}
 
 
 
