@@ -100,6 +100,15 @@ header {
   font-weight: 500;
 } */
 
+/* CONTACT ME */
+
+.contact__me {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 100px;
+  display: none;
+}
+
 /* PROJECTS */
 
 .projects__container {
@@ -459,7 +468,7 @@ footer {
   /* HERO */
 
   .hero__container {
-    padding: 150px 15px 300px 15px;
+    padding: 300px 15px 0 15px;
   }
   
   .hero__h1 {
@@ -482,6 +491,51 @@ footer {
     font-weight: 500;
   }
 
+  /* CONTACT ME */
+
+.contact__me {
+  display: flex;
+  justify-content: flex-end;
+  padding: 130px 0 220px 0;
+}
+
+.icon {
+  margin: 10px;
+  position: relative;
+  display: inline-block;
+  color: white;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s ease;
+}
+.icon .material-icons {
+  font-size: 3rem;
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  transition: all 0.3s ease;
+}
+.icon:hover {
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.icon:hover .material-icons {
+  transform: rotate(360deg);
+}
+.icon .material-icons:last-of-type {
+  opacity: 0;
+}
+.icon:hover .material-icons:first-of-type {
+  opacity: 0;
+}
+.icon:hover .material-icons:last-of-type {
+  opacity: 1;
+}
+.icon:nth-of-type(1) {
+  background-color: #D7196F;
+}
 
 /* PROJECTS */
 
