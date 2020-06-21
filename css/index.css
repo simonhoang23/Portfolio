@@ -409,7 +409,7 @@ hr {
 
 .footer__logo {
   width: 40px;
-  margin-bottom: 20px;
+
 } 
 
 .footer__nav {
@@ -420,10 +420,42 @@ hr {
   justify-content: center;
 }
 
+.footer__social__links__parent {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.footer__social__links__a {
+  text-decoration: none;
+}
+
 .footer__social__links {
   text-decoration: none;
+  width: 30%;
+}
+
+/* DESKTOP FOOTER LINKS */
+
+.desktop__footer__social__links__parent {
+  max-width: 170px;
+    display: flex;
+    display: none;
+}
+
+.desktop__footer__social__links__a {
+  text-decoration: none;
+  padding-right: 15px;
+  display: none;
+}
+
+.desktop__footer__social__links {
+  text-decoration: none;
+  width: 25px;
   color: #333333;
-  line-height: 1.8;
+  display: none;
 }
 
 .footer__social__links:hover {
@@ -465,11 +497,15 @@ footer {
     padding: 0 20px;
   }
 
+  .height {
+    height: 250px;
+ }
+
   /* HERO */
 
   .hero__container {
-    padding: 300px 15px 0 15px;
-    height: 100vh;
+    padding: 0 15px 0 15px;
+    height: 80vh;
   }
   
   .hero__h1 {
@@ -477,7 +513,7 @@ footer {
     text-align: center;
     line-height: 1.4;
     color: #333333;
-    padding: 0px 144px;
+    padding: 0px 140px;
   }
   
   .hero__p {
@@ -497,11 +533,11 @@ footer {
 .contact__me {
   display: flex;
   justify-content: flex-end;
-  padding-top: 150px;
+  padding-top: 55px;
 }
 
 .icon {
-  margin: 10px;
+  /* margin: 10px; */
   position: relative;
   display: inline-block;
   color: white;
@@ -634,6 +670,7 @@ hr {
 .footer__parent {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .footer__logo {
@@ -643,13 +680,43 @@ hr {
 .footer__nav {
   text-decoration: none;
   color: #333333;
-  height: 0px;
+}
+
+.desktop__footer__social__links__parent {
+  max-width: 170px;
+    display: flex;
+}
+
+.desktop__footer__social__links__a {
+  text-decoration: none;
+  padding-right: 15px;
+  display: block;
+}
+
+.desktop__footer__social__links {
+  text-decoration: none;
+  width: 25px;
+  color: #333333;
+  display: block;
+}
+
+/* MOBILE FOOTER LINKS */
+
+.footer__social__links__parent {
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+
+.footer__social__links__a {
+  text-decoration: none;
+  display: none;
 }
 
 .footer__social__links {
   text-decoration: none;
-  color: #333333;
-  line-height: 1.8;
+  width: 30%;
+  display: none;
 }
 
 .footer__social__links:hover {
