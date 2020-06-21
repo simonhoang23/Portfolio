@@ -468,7 +468,8 @@ footer {
   /* HERO */
 
   .hero__container {
-    padding: 150px 15px 0 15px;
+    padding: 300px 15px 0 15px;
+    height: 100vh;
   }
   
   .hero__h1 {
@@ -496,7 +497,7 @@ footer {
 .contact__me {
   display: flex;
   justify-content: flex-end;
-  padding: 80px 0 200px 0;
+  padding-top: 150px;
 }
 
 .icon {
