@@ -150,7 +150,7 @@ header {
 }
 
 .single__text__style__h3 {
-  color: #D7196F;
+  color: #cf455c;
   padding-bottom: 20px;
   font-size: 13px;
 }
@@ -188,7 +188,7 @@ header {
     
     .title__2__column__description__h3 {
       font-size: 20px;
-      color: #D7196F;
+      color: #cf455c;
       padding: 0 0 30px 0;
     }
     
@@ -231,7 +231,7 @@ header {
 
 .title__2__column__key__learnings__h3 {
   font-size: 20px;
-  color: #D7196F;
+  color: #cf455c;
   padding-bottom: 30px;
 }
 
@@ -257,7 +257,7 @@ html {
 
 .parent__top {
   position: sticky;
-  top: 500px;
+  top: 80px;
   margin-left: 10px;
 }
 
@@ -345,12 +345,12 @@ hr {
 
 .footer__social__links:hover {
   text-decoration: underline;
-  color: #D7196F;
+  color: #cf455c;
 }
 
 .footer__nav:hover {
   text-decoration: underline;
-  color: #D7196F;
+  color: #cf455c;
 }
 
 .no__margin__right {
@@ -441,7 +441,7 @@ footer {
 
 .single__text__style__h3 {
   font-size: 13px;
-  color: #D7196F;
+  color: #cf455c;
   padding-bottom: 20px;
 
 }
@@ -483,7 +483,7 @@ footer {
 .title__2__column__key__learnings__h3 {
   font-size: 20px;
   display: block;
-  color: #D7196F;
+  color: #cf455c;
 }
 
 .title__2__column__key__learnings__h4 {
@@ -590,12 +590,12 @@ hr {
 
 .footer__social__links:hover {
   text-decoration: underline;
-  color: #D7196F;
+  color: #cf455c;
 }
 
 .footer__nav:hover {
   text-decoration: underline;
-  color: #D7196F;
+  color: #cf455c;
 }
 
 .no__margin__right {

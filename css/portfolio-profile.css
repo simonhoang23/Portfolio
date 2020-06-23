@@ -178,7 +178,7 @@ hr {
 
 .title__2__column__key__learnings__h3 {
   font-size: 20px;
-  color: #D7196F;
+  color: #cf455c;
   padding-bottom: 30px;
 }
 
@@ -197,7 +197,7 @@ hr {
  /* UX COLLECTIVE LINK TEXT*/
 
  .achievements__text__links {
-  color: #D7196F;
+  color: #cf455c;
 }
 
 
@@ -209,7 +209,7 @@ html {
 
 .parent__top {
   position: sticky;
-  top: 500px;
+  top: 80px;
   margin-left: 10px;
 }
 
@@ -295,12 +295,12 @@ hr {
 
 .footer__social__links:hover {
   text-decoration: underline;
-  color: #D7196F;
+  color: #cf455c;
 }
 
 .footer__nav:hover {
   text-decoration: underline;
-  color: #D7196F;
+  color: #cf455c;
 }
 
 .no__margin__right {
@@ -394,7 +394,7 @@ footer {
 .title__2__column__key__learnings__h3 {
   font-size: 20px;
   display: block;
-  color: #D7196F;
+  color: #cf455c;
 }
 
 .title__2__column__key__learnings__h4 {
@@ -515,12 +515,12 @@ hr {
 
 .footer__social__links:hover {
   text-decoration: underline;
-  color: #D7196F;
+  color: #cf455c;
 }
 
 .footer__nav:hover {
   text-decoration: underline;
-  color: #D7196F;
+  color: #cf455c;
 }
 
 .no__margin__right {
