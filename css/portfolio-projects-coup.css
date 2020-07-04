@@ -261,6 +261,8 @@ html {
   position: sticky;
   top: 80px;
   margin-left: 10px;
+  width: 50px;
+  z-index: 9;
 }
 
 .img__top {
@@ -511,6 +513,8 @@ footer {
   position: sticky;
   top: 500px;
   margin-left: 40px;
+  width: 50px;
+  z-index: 9;
 }
 
 .img__top {
