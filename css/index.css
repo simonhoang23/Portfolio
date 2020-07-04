@@ -68,10 +68,12 @@ header {
 
 .header__portfolio:hover {
   text-decoration: underline;
+  color: #cf455c;
 }
 
 .header__profile:hover {
   text-decoration: underline;
+  color: #cf455c;
 }
 
 /* HERO */
