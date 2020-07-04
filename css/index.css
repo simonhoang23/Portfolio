@@ -89,9 +89,8 @@ header {
 
 .hero__p {
   font-size: 18px;
- 
   text-align: center;
-  padding: 20px;
+  padding: 10px;
 }
 
 /* .hero__a {
@@ -512,13 +511,12 @@ footer {
     text-align: center;
     line-height: 1.4;
     color: #333333;
-    padding: 0px 140px;
+    padding: 0px 50px;
   }
   
   .hero__p {
     font-size: 23px;
     text-align: center;
-    padding: 25px;
   }
   
   .hero__a {
