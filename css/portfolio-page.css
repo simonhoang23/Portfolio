@@ -322,7 +322,7 @@ header {
   -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  background-image:url('../images/index-blog-article-2.jpg');
+  background-image:url('../images/gautam-lakum-YOHo8AXguuQ-unsplash.jpg');
   background-size:cover;
   background-repeat:no-repeat;
 }
@@ -514,7 +514,7 @@ footer {
   section {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 100px;
   }
 
 
@@ -567,7 +567,7 @@ footer {
 
 .projects__grid {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   /* display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
