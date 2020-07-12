@@ -563,7 +563,7 @@ transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 
 .blog__articles__parent
 {
-  /* height:100vh; */
+  height: 400px;
   width:100%;
   display: flex;
   /* justify-content: center; */
