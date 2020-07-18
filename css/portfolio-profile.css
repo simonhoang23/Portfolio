@@ -139,8 +139,7 @@ header {
 
 /* SINGLE IMAGE MOBILE AND DESKTOP */
 .single__image__container {
-  max-width: 1200px;
-  margin: 0 auto;
+
 }
 
 .single__image {
