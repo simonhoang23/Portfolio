@@ -59,14 +59,14 @@ header {
   text-decoration: none;
   color: #333333;
   font-size: 18px;
-  
+  padding-right: 15px;
 }
 
 .header__profile {
   text-decoration: none;
   color: #333333;
   font-size: 18px;
-  padding-left: 20px;
+  
 }
 
 .header__portfolio:hover {
