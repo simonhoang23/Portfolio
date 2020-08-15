@@ -567,8 +567,11 @@ opacity:1;
   .blog__articles__parent {
     /* height: 400px; */
     width: 100%;
-    display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
+
+
+
+
 }
