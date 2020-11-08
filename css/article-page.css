@@ -261,6 +261,21 @@ header {
   background-repeat:no-repeat;
 }
 
+.blog__articles__image__5
+{
+  height:6em;
+  width:14em;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('../images/etienne-boulanger-aafOjsh-9jU-unsplash.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
 /* BOTTOM CARD SECTION */
 
 .blog__articles__description
@@ -316,6 +331,11 @@ header {
 }
 
 .blog__articles__parent__card:hover .blog__articles__image__4 
+{
+  height:18em;
+}
+
+.blog__articles__parent__card:hover .blog__articles__image__5 
 {
   height:18em;
 }
