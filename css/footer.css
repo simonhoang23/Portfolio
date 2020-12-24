@@ -109,12 +109,12 @@
 /* FOOTER */
 
 .footer__container {
-    padding-top: 80px;
+    padding-top: 115px;
   }
   
   .footer__background {
     background-color: #e4e3e3;
-    height: 250px;
+    height: 300px;
     padding: 0;
 }
   
@@ -156,7 +156,7 @@
     font-size: 16px;
     color: #cf455c;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 70px;
   }
   
   /* MOBILE FOOTER LINKS */
