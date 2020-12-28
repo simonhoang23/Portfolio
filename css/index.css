@@ -11,7 +11,7 @@
 
 body {
   color: var(--main__text__colour);
-  font-family: "Playfair Display", serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: var(--main__line__height);
   background-color: #f0f1f3;
   /* Project pages background-color: #eeeeee */
@@ -83,16 +83,21 @@ header {
 }
 
 .hero__h1 {
-  font-size: 26px;
-  text-align: center;
+  font-size: 35px;
+  padding-bottom: 15px;
   line-height: 1.4;
   color: #333333;
+  font-weight: bold;
+}
+
+.hero__main__p {
+  font-size: 20px;
+  
 }
 
 .hero__p {
-  font-size: 18px;
-  text-align: center;
-  padding: 10px;
+  font-size: 17px;
+  padding-top: 10px;
 }
 
 /* .hero__a {
@@ -422,27 +427,35 @@ opacity:1;
   }
 
   .height {
-    height: 280px;
+    height: 170px;
   }
 
   /* HERO */
 
   .hero__container {
     padding: 0 15px 0 15px;
-    height: 80vh;
+    height: 500px;
   }
 
   .hero__h1 {
-    font-size: 29px;
-    text-align: center;
+    font-size: 50px;
+    padding-left: 80px;
     line-height: 1.4;
     color: #333333;
-    padding: 0px 110px;
+    
+  }
+
+  .hero__main__p {
+    font-size: 23px;
+    padding-left: 80px;
+    max-width: 53ch;
+    line-height: 1.5;
   }
 
   .hero__p {
-    font-size: 23px;
-    text-align: center;
+   
+    padding-left: 80px;
+    
   }
 
   .hero__a {
@@ -455,8 +468,8 @@ opacity:1;
 
   .contact__me {
     display: flex;
-    justify-content: flex-end;
-    padding-top: 70px;
+    justify-content: flex-start;
+    padding: 50px 0 0 80px;
   }
 
   .icon {
