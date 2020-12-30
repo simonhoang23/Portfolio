@@ -11,7 +11,7 @@
 
 body {
   color: var(--main__text__colour);
-  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', sans-serif;
   line-height: var(--main__line__height);
   background-color: #F0F1F3;
   /* Project pages background-color: #eeeeee */
@@ -84,7 +84,7 @@ header {
 }
 
 .hero__h1__parent {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .hero__h1 {
@@ -96,7 +96,7 @@ header {
 
 .hero__p {
   font-size: 18px;
-  padding: 10px;
+  padding: 10px 0;
   /* padding: 25px 86px; */
 }
 
@@ -255,15 +255,16 @@ html {
 /* HERO */
 
 .hero__container {
-  padding: 150px 80px 150px 80px;
+  padding: 170px 80px 150px 80px;
   max-width: 1200px;
 }
 
 .hero__h1 {
-  font-size: 29px;
-  line-height: 1.4;
-  color: #333333;
 
+  font-size: 23px;
+  
+  max-width: 53ch;
+  line-height: 1.5;
 }
 
 .hero__p {
@@ -279,7 +280,7 @@ html {
 }
 
 .hero__button__parent {
-
+  
 }
 
 

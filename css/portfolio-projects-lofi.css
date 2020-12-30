@@ -11,7 +11,7 @@
 
 body {
   color: var(--main__text__colour);
-  font-family: "Playfair Display", serif;
+  font-family: 'Poppins', sans-serif;
   line-height: var(--main__line__height);
   background-color: #f0f1f3;
   /* Project pages background-color: #f1efed */
