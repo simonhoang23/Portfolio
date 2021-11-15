@@ -110,6 +110,10 @@ header {
   padding-top: 30px;
 }
 
+.hero__button__parent__2 {
+  padding-top: 15px;
+}
+
 .hero__button {
   background-color: #333333;
   border: none;
@@ -125,15 +129,41 @@ header {
   border-radius: 6px;
 }
 
+.hero__button__2 {
+  background-color: #cf455c;
+  border: none;
+  color: #cf455c;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
 .hero__button__hover {
     background-color: #F0F1F3; 
     color: 333333; 
     border: 2px solid #333333;
-  
 }
+
 
 .hero__button__hover:hover {
   background-color: #333333;
+  color: #fff;
+}
+
+.hero__button__hover__2 {
+  background-color: #F0F1F3; 
+  color: 333333; 
+  border: 2px solid #cf455c;
+}
+
+.hero__button__hover__2:hover {
+  background-color: #cf455c;
   color: #fff;
 }
 
@@ -279,6 +309,12 @@ html {
 }
 
 .hero__button__parent {
+  display: flex;
+  padding-top: 30px;
+}
+
+.hero__button__parent__2 {
+  padding: 0 0 0 15px;
   
 }
 
