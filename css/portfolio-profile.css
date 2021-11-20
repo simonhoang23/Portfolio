@@ -231,6 +231,9 @@ hr {
   color: #cf455c;
 }
 
+.achievements__text__links:hover {
+  color: #005f73;
+}
 
 /* TOP */
 
