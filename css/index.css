@@ -410,6 +410,11 @@ opacity:1;
 
 .hero__button__parent {
   padding-top: 30px;
+  text-align: center;
+}
+
+.hero__button__parent__podcast {
+  padding-top: 30px;
   text-align: ;
 }
 
@@ -484,12 +489,11 @@ opacity:1;
   }
 
   .hero__button__parent {
-    display: flex;
     padding-top: 30px;
   }
 
-  .hero__button__parent__2 {
-    padding: 10px 0 0 80px;
+  .hero__button__parent__podcast {
+    padding: 30px 0 0 80px;
   }
 
   /* CONTACT ME */
