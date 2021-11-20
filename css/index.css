@@ -11,7 +11,7 @@
 
 body {
   color: var(--main__text__colour);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: var(--main__line__height);
   background-color: #f0f1f3;
   /* Project pages background-color: #eeeeee */
@@ -63,7 +63,6 @@ header {
   text-decoration: none;
   color: #333333;
   font-size: 18px;
-  
 }
 
 .header__portfolio:hover {
@@ -92,12 +91,47 @@ header {
 
 .hero__main__p {
   font-size: 20px;
-  
 }
 
 .hero__p {
   font-size: 17px;
   padding-top: 10px;
+}
+
+.hero__button__2 {
+  background-color: #cf455c;
+  border: none;
+  color: #cf455c;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.hero__button__hover__2 {
+  background-color: #f0f1f3;
+  color: #333333;
+  border: 2px solid #333333;
+}
+
+.hero__button__hover__2:hover {
+  background-color: #333333;
+  color: #fff;
+}
+
+/* UX COLLECTIVE LINK TEXT*/
+
+.achievements__text__links {
+  color: #333333;
+}
+
+.achievements__text__links:hover {
+  color: #005f73;
 }
 
 /* .hero__a {
@@ -108,12 +142,12 @@ header {
 
 /* CONTACT ME */
 
-.contact__me {
+/* .contact__me {
   display: flex;
   justify-content: flex-end;
   padding-bottom: 100px;
   display: none;
-}
+} */
 
 /* PROJECTS */
 
@@ -376,7 +410,7 @@ opacity:1;
 
 .hero__button__parent {
   padding-top: 30px;
-  text-align: center;
+  text-align: ;
 }
 
 .hero__button {
@@ -405,18 +439,6 @@ opacity:1;
   color: #fff;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* DESKTOP SCREEN SIZE - min-width: 720px DESKTOP SIZE STARTS HERE (720PX) */
 
 @media only screen and (min-width: 775px) {
@@ -442,7 +464,6 @@ opacity:1;
     padding-left: 80px;
     line-height: 1.4;
     color: #333333;
-    
   }
 
   .hero__main__p {
@@ -453,9 +474,7 @@ opacity:1;
   }
 
   .hero__p {
-   
     padding-left: 80px;
-    
   }
 
   .hero__a {
@@ -464,17 +483,26 @@ opacity:1;
     font-weight: 500;
   }
 
+  .hero__button__parent {
+    display: flex;
+    padding-top: 30px;
+  }
+
+  .hero__button__parent__2 {
+    padding: 10px 0 0 80px;
+  }
+
   /* CONTACT ME */
 
-  .contact__me {
+  /* .contact__me {
     display: flex;
     justify-content: flex-start;
     padding: 50px 0 0 80px;
-  }
+  } */
 
-  .icon {
-    /* margin: 10px; */
-    position: relative;
+  /* .icon { */
+  /* margin: 10px; */
+  /* position: relative;
     display: inline-block;
     color: white;
     width: 5rem;
@@ -482,8 +510,8 @@ opacity:1;
     border-radius: 50%;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     transition: all 0.3s ease;
-  }
-  .icon .material-icons {
+  } */
+  /* .icon .material-icons {
     font-size: 3rem;
     position: absolute;
     left: 1rem;
@@ -508,7 +536,7 @@ opacity:1;
   }
   .icon:nth-of-type(1) {
     background-color: #cf455c;
-  }
+  } */
 
   /* PROJECTS */
 
@@ -583,8 +611,4 @@ opacity:1;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
-
-
-
-
 }
